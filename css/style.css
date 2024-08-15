@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* nave ver css start */
+header {
+    width: 100%;
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar .navbar-brand img {
+    width: 140px !important;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+/* bennar part code start */
+.cus-height {
+    height: 90vh;
+}
+
+.banner-part .content h5 {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.banner-part .content h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.banner-part .content p {
+    color: #fff;
+    line-height: 26px;
+    margin: 20px 0 58px 0;
+    width: 87%;
+}
+
+.banner-part .content .bennar-btns a {
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.banner-part .content .bennar-btns .btn-primary {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+
+.banner-part .content .bennar-btns .btn-primary:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.7s;
+}
+
+.banner-part .content .bennar-btns .btn-info {
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    transition: 0.7s;
+
+}
+
+.banner-part .content .bennar-btns .btn-info:hover {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+
+/* feature code css */
+.feature {
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid #999;
+}
+
+.feature h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.feature h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature .underline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.feature .content i {
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 50%;
+    color: #008ed6;
+    background: white !important;
+    padding-top: 26px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 88px;
+    height: 88px;
+}
+
+.feature .content h5 {
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.feature .content p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+}
+
+/* beautyful-section css */
+.beautyfull-section {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.beautyfull-section .b-inner h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 50px;
+}
+
+.beautyfull-section .b-inner h2 {
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.beautyfull-section .b-inner .underline {
+    margin-left: 0;
+    margin-right: 0;
+    width: 10%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.beautyfull-section .b-inner p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+}
+
+.beautyfull-section .b-inner ul {
+    margin: 30px 0 0px;
+    padding: 0;
+
+}
+
+.beautyfull-section .b-inner ul li {
+    list-style-type: none;
+    margin-bottom: 6px;
+
+}
+
+.beautyfull-section .b-inner ul li i {
+    color: #008ed6;
+    margin-right: 10px;
+}
+
+/* super-section css */
+.super-section {
+    width: 100%;
+    padding: 50px 0;
+    background: #f2f2f2;
+}
+
+.super-section .s-inner h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 50px;
+}
+
+.super-section .s-inner h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.super-section .s-inner .underline {
+    margin-left: 0;
+    margin-right: 0;
+    width: 10%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.super-section .s-inner p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #999999;
+    width: 85%;
+}
+
+.super-section .row img {
+    margin-left: -60px;
+}
+
+/* testimonial-section css */
+.testimonial-section {
+    padding: 50px 0;
+    background: url(../img/test.png) center center no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section .titel {
+    text-align: center;
+
+}
+
+.testimonial-section .titel h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: uppercase;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.testimonial-section .titel h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.testimonial-section .underline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.testimonial-section .owl-carousel .item p {
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+    color: rgb(230, 230, 230);
+    font-weight: 200;
+    width: 78%;
+}
+
+.testimonial-section .owl-carousel .item .intro {
+    display: flex;
+    color: rgb(230, 230, 230);
+
+}
+
+.testimonial-section .owl-carousel .item .intro .profile {
+    margin-right: 15px;
+}
+
+.testimonial-section .owl-carousel .item .intro .profile img {
+    width: 55px;
+}
+
+.testimonial-section .owl-carousel .item .deagignation h5 {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.owl-theme .owl-dots {
+    margin-top: 80px !important;
+}
+
+/* like-section css */
+.calltoaction {
+    width: 100%;
+    padding: 50px 0;
+    background: #15141a;
+}
+
+.calltoaction h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.calltoaction h2 span {
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+}
+
+.calltoaction .bennar-btns {
+    text-align: right;
+}
+
+.calltoaction .bennar-btns a {
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.calltoaction .bennar-btns .btn-primary {
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    transition: 0.7s;
+}
+
+.calltoaction .bennar-btns .btn-primary:hover {
+
+    border: 1px solid #008ed6;
+    ;
+    transition: 0.7s;
+    background: #008ed6;
+}
+
+.calltoaction .bennar-btns .btn-info {
+    color: #fff;
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    transition: 0.7s;
+
+}
+
+.calltoaction .bennar-btns .btn-info:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.7s;
+}
+
+/* price-sectiom css */
+
+.price-section .titel {
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.price-section .titel h6 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: uppercase;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.price-section .titel h2 {
+    color: rgb(16, 16, 16);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.price-section .titel .underline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    border-bottom: 3px solid #578bd1;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.price-section .price-card {
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    padding: 25px 0 30px;
+}
+
+.price-section .price-card .pc-header {
+    padding: 0 0 25px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.price-section .price-card .pc-header h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price-section .price-card .pc-body {
+    padding: 20px 0;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+
+.price-section .price-card .pc-body h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.price-section .price-card .pc-footer {}
+
+.price-section .price-card .pc-footer p {
+    padding: 25px 31px 0;
+    margin-bottom: 35px;
+    color: #999;
+
+}
+
+.price-section .price-card .pc-footer p a {
+    text-decoration: none;
+
+}
+
+.price-section .price-card .pc-footer .pc-btns {}
+
+.price-section .price-card .pc-footer .pc-btns .btn-primary {
+
+    border-radius: 4px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 5px;
+    background: transparent;
+    color: #578bd1;
+    border: 1px solid #ebebeb;
+    transition: 0.7s;
+}
+
+.price-section .price-card:hover .pc-header h3 {
+    color: #008ed6;
+}
+
+.price-section .price-card:hover .pc-body {
+    background: #008ed6;
+    color: #fff;
+}
+.price-section .price-card:hover .pc-footer .btn-primary{
+    background: #008ed6;
+    color: #fff;
+}
